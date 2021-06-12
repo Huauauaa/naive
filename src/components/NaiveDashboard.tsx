@@ -1,6 +1,7 @@
 import { defineComponent, ref } from 'vue';
-import { NButton, NInput, NSpace } from 'naive-ui';
+import { NButton, NInput, NSpace, NIcon } from 'naive-ui';
 import '../assets/naive-dashboard.scss';
+import { RemoveCircleSharp, AddCircleSharp } from '@vicons/ionicons5';
 
 export default defineComponent({
   name: 'NaiveDashboard',
@@ -19,7 +20,9 @@ export default defineComponent({
         <legend>Naive Dashboard</legend>
         <NSpace align="center">
           <NButton onClick={onCountChange(+step.value)} size="small">
-            +
+            <NIcon>
+              <AddCircleSharp />
+            </NIcon>
           </NButton>
           <NInput
             defaultValue={step.value}
@@ -32,7 +35,9 @@ export default defineComponent({
           />
           {count.value}
           <NButton onClick={onCountChange(-step.value)} size="small">
-            -
+            <NIcon>
+              <RemoveCircleSharp />
+            </NIcon>
           </NButton>
         </NSpace>
       </fieldset>

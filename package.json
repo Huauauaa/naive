@@ -6,10 +6,10 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "vfonts": "^0.1.0",
     "vue": "^3.0.5"
   },
   "devDependencies": {
+    "@vicons/ionicons5": "^0.8.0",
     "@vitejs/plugin-vue": "^1.2.3",
     "@vitejs/plugin-vue-jsx": "^1.1.5",
     "@vue/compiler-sfc": "^3.0.5",

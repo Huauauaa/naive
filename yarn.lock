@@ -337,6 +337,11 @@
   dependencies:
     "@types/yargs-parser" "*"
 
+"@vicons/ionicons5@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.nlark.com/@vicons/ionicons5/download/@vicons/ionicons5-0.8.0.tgz#47572c15b741dd952d0817661592f79964b948f3"
+  integrity sha1-R1csFbdB3ZUtCBdmFZL3mWS5SPM=
+
 "@vitejs/plugin-vue-jsx@^1.1.5":
   version "1.1.5"
   resolved "https://registry.nlark.com/@vitejs/plugin-vue-jsx/download/@vitejs/plugin-vue-jsx-1.1.5.tgz#e856ef42f59048e59c85f8714dc8397e15f81738"
