@@ -6,6 +6,8 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "puppeteer": "^10.0.0",
+    "puppeteer-core": "^10.0.0",
     "vue": "^3.0.5"
   },
   "devDependencies": {
